@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Molka Belakhdar - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    </div>
+
+    <nav id="desktop-nav">
+      <div class="logo">Molka Belakhdar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">Présentation</a></li>
+          <li><a href="#experience">Compétences</a></li>
+          <li><a href="#projects">Réalisations</a></li>
+          <li><a href="#veille">Veille</a></li>
+          <li><a href="#bilan">Bilan</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Molka Belakhdar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">Accueil</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Expériences</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Réalisations</a></li>
+          <li><a href="#veille" onclick="toggleMenu()">Veille</a></li>
+          <li><a href="#bilan" onclick="toggleMenu()">Bilan</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="profile">
+      <div class="section__pic-container">
+        <img class="molka" src="output-onlinegiftools.gif" alt="Photo de Molka" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Salut, je suis</p>
+        <h1 class="title gradient-text">Molka Belakhdar</h1>
+        <div id="socials-container">
+          <div class="social-icon-wrapper">
+            <img
+              src="linkedin-brands-solid-full.svg"
+              alt="LinkedIn"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/molka-belakhdar'"
+            />
+          </div>
+          <div class="social-icon-wrapper">
+            <img
+              src="github-brands-solid-full.svg"
+              alt="Github"
+              class="icon"
+              onclick="location.href='https://github.com/Molka-Belakhdar'"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">C'est qui Molka ?</p>
+      <h1 class="title gradient-text">Je me présente</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="photo-cv.jpg"
+            alt="Photo de profil"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="code-branch-solid-full.svg"
+                alt="Icône expérience"
+                class="icon"
+              />
+              <h3>Expérience</h3>
+              <p>01/08/2024 - 01/09/2025 <br />chez Medianet ( Tunisie )</p>
+              <p>15/12/2025 - 20/02/2026 <br />chez Caplogy ( France )</p>
+
+            </div>
+            <div class="details-container">
+              <img
+                src="school-solid-full.svg"
+                alt="Icône éducation"
+                class="icon"
+              />
+              <h3>Formation</h3>
+              <p>Bachelor en Sciences<br />Informatiques et Numériques</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <div class="parcours-item">
+              <strong class="gradient-text">Mon Parcours</strong>
+            </div>
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong>2025-2026</strong> : 2ème année Bachelor avec BTS SIO SLAM
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong>Rentrée decalée 2025</strong> : 1ère année Bachelor Numérique et Informatique à EPSI Paris
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <strong>2023-2024</strong> : Baccalauréat Scientifique (Tunisie)
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="experience">
+      <p class="section__text__p1">Mes technologies</p>
+      <h1 class="title gradient-text">Mes Compétences</h1>
+      
+      <div class="skills-container">
+        <div class="skills-grid">
+          <!-- Python -->
+          <div class="skill-item-new">
+            <img src="python.png" alt="Python" class="skill-icon" />
+            <span class="skill-name">Python</span>
+          </div>
+
+          <!-- C++ -->
+          <div class="skill-item-new">
+            <img src="cpp.jpg" alt="C++" class="skill-icon" />
+            <span class="skill-name">C++</span>
+          </div>
+
+          <!-- PHP -->
+          <div class="skill-item-new">
+            <img src="php.png" alt="PHP" class="skill-icon" />
+            <span class="skill-name">PHP</span>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-item-new">
+            <img src="javascript.jpg" alt="JavaScript" class="skill-icon" />
+            <span class="skill-name">JavaScript</span>
+          </div>
+
+          <!-- SQL -->
+          <div class="skill-item-new">
+            <img src="sql.png" alt="SQL" class="skill-icon" />
+            <span class="skill-name">SQL</span>
+          </div>
+
+          <!-- Symfony -->
+          <div class="skill-item-new">
+            <img src="symfony.jpg" alt="Symfony" class="skill-icon" />
+            <span class="skill-name">Symfony</span>
+          </div>
+
+          <!-- HTML -->
+          <div class="skill-item-new">
+            <img src="html.png" alt="HTML" class="skill-icon" />
+            <span class="skill-name">HTML</span>
+          </div>
+
+          <!-- CSS -->
+          <div class="skill-item-new">
+            <img src="css.jpg" alt="CSS" class="skill-icon" />
+            <span class="skill-name">CSS</span>
+          </div>
+
+          <!-- MySQL -->
+          <div class="skill-item-new">
+            <img src="mysql.png" alt="MySQL" class="skill-icon" />
+            <span class="skill-name">MySQL</span>
+          </div>
+
+          <!-- MongoDB -->
+          <div class="skill-item-new">
+            <img src="mongodb.png" alt="MongoDB" class="skill-icon" />
+            <span class="skill-name">MongoDB</span>
+          </div>
+
+          <!-- phpMyAdmin -->
+          <div class="skill-item-new">
+            <img src="php.png" alt="phpMyAdmin" class="skill-icon" />
+            <span class="skill-name">phpMyAdmin</span>
+          </div>
+
+          <!-- GitHub -->
+          <div class="skill-item-new">
+            <img src="github.jpg" alt="github" class="skill-icon" />
+            <span class="skill-name">GitHub</span>
+          </div>
+          <!-- Linux -->
+          <div class="skill-item-new">
+            <img src="linux.jpg" alt="Linux" class="skill-icon" />
+            <span class="skill-name">Linux</span>
+          </div>
+        </div>
+      </div>
+
+      
+    </section> 
+       
+
+    <section id="projects">
+      <p class="section__text__p1">Mes projets récents</p>
+      <h1 class="title gradient-text">Mes Projets</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container project-image-container">
+              <img
+                src="digital-diary.png"
+                alt="Projet Digital Diary ( for fun hihi )"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title gradient-text">Digital Diary</h2>
+            <div class="project-description">
+              <p>
+                <strong>Objectif :</strong>
+                Journal personnel numérique avec interface moderne
+              </p>
+              <p>
+                <strong>Équipe :</strong> 
+                Projet solo
+              </p>
+              <p>
+                <strong>Technologies :</strong> 
+                HTML , CSS3 et JavaScript
+              </p>
+              <p>
+                <strong>Fonctionnalités :</strong>
+                Écriture d'entrées, sauvegarde locale, design responsive et interface intuitive
+              </p>
+              <p>
+                <strong>Durée de réalisation :</strong>
+                3 semaines
+              </p>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://molka-belakhdar.github.io/digital-diary'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://beamish-toffee-1323d3.netlify.app/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container project-image-container">
+                <img
+                  src="smart-bike.png"
+                  alt="Smart Bike Site"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title gradient-text">Smart Bike </h2>
+              <div class="project-description">
+                <p>
+                  <strong>Objectif :</strong>
+                  Créer un site web de E-commerce avec une base de donnés fonctionelle. Le site vise à présenter certains produits de la marque 'SmartBike' et à permettre aux utilisateurs de les ajouter à leur panier.
+                </p>
+                <p>
+                  <strong>Équipe :</strong> 
+                  Projet de groupe ( 4 membres )
+                </p>
+                <p>
+                  <strong>Technologies :</strong> 
+                  HTML , CSS3 et PHP
+                </p>
+                <p>
+                  <strong>Fonctionnalités :</strong>
+                  Présentation de produits, ajout au panier, gestion de la base de données pour stocker les informations des produits et des utilisateurs.
+                <p>
+                  <strong>Durée de réalisation :</strong>
+                  3 semaines
+                </p>
+                
+              </div>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/Molka-Belakhdar'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.canva.com/design/DAGkC5F8y3U/b8TmSNl-91SB28ylVrTgDw/edit?utm_content=DAGkC5F8y3U&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton')"
+                >
+                  Rendu 
+                </button>
+              </div>
+            </div>
+          
+
+          <div class="details-container color-container">
+            <div class="article-container project-image-container">
+              <div class="project-placeholder">
+                <span>Projet à venir</span>
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Molka-Belakhdar'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Molka-Belakhdar'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <section id="veille">
+      <p class="section__text__p1">Ma veille techno</p>
+      <h1 class="title gradient-text">Ma Veille Technologique</h1>
+      <div class="text-container" style="max-width: 800px; margin: 0 auto 3rem auto; text-align: center;">
+        <p style="font-size: 1.1rem; line-height: 1.8;">
+          Dans le cadre de mon développement professionnel, je mène une veille active sur 
+          <strong>l'usage de l'IA dans le développement logiciel</strong>. 
+          Cette veille me permet de rester informée des dernières avancées de ChatGPT, 
+          GitHub Copilot et des outils qui transforment le métier de développeur.
+        </p>
+      </div>
+      <p class="section__text__p1">Ce que j'ai lu</p>
+      <h2 class="title gradient-text" style="font-size: 2rem; margin-bottom: 2rem;">Articles Sélectionnés</h2>
+    
+      <div class="experience-details-container">
+        <div class="about-containers">
+    
+          <div class="details-container color-container">
+            <span class="experience-sub-title" style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+              IA & DÉVELOPPEURS – ÉVÉNEMENT
+            </span>
+            <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+              OpenClaw rejoint OpenAI
+            </h2>
+            <div class="project-description">
+              <p><strong>Titre :</strong> Le créateur d'OpenClaw, l'IA open source qui fait le buzz, rejoint OpenAI</p>
+              <p><strong>Date :</strong> le 16 février 2026 à 08:51</p>
+              <p><strong>Source :</strong> 01net.com</p>
+              <p>
+                <strong>Pourquoi cet article ?</strong>
+                  J'ai choisi cet article car il montre que les agents IA autonomes deviennent un enjeu stratégique majeur — au point qu'OpenAI recrute directement le créateur d'un projet open source viral. En tant que future développeuse, ça me concerne : ces outils vont changer concrètement la façon dont on code et dont on travaille.
+              </p>
+
+            </div>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.01net.com/actualites/createur-dopenclaw-ia-open-source-fait-buzz-rejoint-openai.html'">
+                Lien vers l'article
+              </button>
+            </div>
+          </div>
+    
+          <div class="details-container color-container">
+            <span class="experience-sub-title" style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+              IA & DÉVELOPPEURS – IMPACT MÉTIER
+            </span>
+            <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+              La révolution du code
+            </h2>
+            <div class="project-description">
+              <p><strong>Titre :</strong> Quand les programmeurs ne codent plus : la révolution en marche de l'IA</p>
+              <p><strong>Date :</strong> le 15/02/2026 à 21h06</p>
+              <p><strong>Source :</strong> Le Point</p>
+              <p>
+                <strong>Pourquoi cet article ?</strong>
+                J'ai choisi cet article car il montre concrètement le changement de rôle du développeur : on passe de quelqu'un qui écrit du code à quelqu'un qui supervise et valide ce que l'IA produit. L'exemple de Spotify — un ingénieur qui corrige un bug depuis son téléphone dans le métro sans toucher une ligne de code — illustre parfaitement où en est le métier aujourd'hui. C'est exactement le genre d'évolution que je dois anticiper dans ma carrière.
+              </p>
+            </div>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.lepoint.fr/societe/quand-les-programmeurs-ne-codent-plus-la-revolution-en-marche-de-lia-VHWJJ7M4FBDB5GT6YG35MMXTCI/'">
+                Lien vers l'article
+              </button>
+            </div>
+          </div>
+    
+        <div class="details-container color-container">
+          <span class="experience-sub-title" style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+            IA & DÉVELOPPEURS – ENJEUX
+          </span>
+          <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+            Les agents autonomes
+          </h2>
+          <div class="project-description">
+            <p><strong>Titre :</strong> Comment OpenAI bichonne les développeurs, menacés par l'IA</p>
+            <p><strong>Date :</strong> le 16 février 2026 à 13h00</p>
+            <p><strong>Source :</strong> Challenges</p>
+            <p>
+              <strong>Pourquoi cet article ?</strong>
+              J'ai choisi cet article car la phrase "chef d'orchestre plutôt que simple exécutant" résume bien ce que le métier de développeur est en train de devenir. Ce qui m'a marquée, c'est que la compétence clé ne sera plus de connaître un langage par cœur, mais de savoir concevoir une architecture et formuler de bonnes instructions à l'IA. C'est une façon de voir mon futur métier qui change complètement ma façon de me former.
+            </p>
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://www.challenges.fr/entreprise/tech-numerique/on-devient-davantage-chef-dorchestre-comment-openai-bichonne-les-developpeurs-menaces-par-lia_640016'">
+              Lien vers l'article
+            </button>
+          </div>
+        </div>
+    
+        </div>
+      </div>
+    
+      <p class="section__text__p1" style="margin-top: 4rem;">Ma stack</p>
+      <h2 class="title gradient-text" style="font-size: 2rem; margin-bottom: 1rem;">Outils de Veille</h2>
+      <p class="section__text__p1" style="margin-bottom: 2rem;">Ma stack pour capter, filtrer et partager les informations stratégiques.</p>
+    
+      <div class="about-containers" style="max-width: 900px; margin: 0 auto;">
+    
+
+        <div class="details-container color-container">
+          <img src="code-branch-solid-full.svg" alt="Feeds" class="icon" />
+          <h3>Feeds & Alerts</h3>
+          <div class="project-description">
+            <p>Feedly, Google Alerte</p>
+      
+            <p><strong>Mots-clés :</strong> IA développeur · GitHub Copilot · ChatGPT coding</p>
+          </div>
+        </div>
+    
+        
+        <div class="details-container color-container">
+          <img src="school-solid-full.svg" alt="Push" class="icon" />
+          <h3>Méthodes Push</h3>
+          <div class="project-description">
+            <!-- 👇 Changer la newsletter ou la fréquence si besoin -->
+            <p>Veille réalisée toutes les <strong>2 semaines</strong> sur le sujet</p>
+          </div>
+        </div>
+    
+      </div>
+    
+      
+    </section>
+    <section id="bilan">
+      <p class="section__text__p1">Bilan de parcours</p>
+      <h1 class="title gradient-text">Mon Bilan</h1>
+    
+      <div class="text-container"
+        style="max-width: 800px; margin: 0 auto 3rem auto; text-align: center;">
+        <p style="font-size: 1.1rem; line-height: 1.8;">
+          Entre mes stages, mes projets personnels et ma formation à <strong>EPSI Paris</strong>,
+          j'ai construit une vraie vision du développement — technique, rigoureuse, et toujours orientée vers l'impact.
+          Voici ce que j'ai retenu de ces expériences.
+        </p>
+      </div>
+    
+      <!-- CE QUE J'AI RETENU -->
+      <p class="section__text__p1">Ce que j'ai appris</p>
+      <h2 class="title gradient-text"
+        style="font-size: 2rem; margin-bottom: 2rem;">Ce que j'ai retenu</h2>
+    
+      <div class="experience-details-container">
+        <div class="about-containers">
+    
+          <div class="details-container color-container">
+            <span class="experience-sub-title"
+              style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+              TECHNIQUE
+            </span>
+            <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+              Coder proprement
+            </h2>
+            <div class="project-description">
+              <p>
+                Travailler chez Medianet puis Caplogy m'a appris que le code qu'on écrit seul la nuit,
+                ça ne suffit pas en entreprise. Il faut que les autres comprennent, maintiennent et fassent
+                évoluer ce qu'on a fait.
+              </p>
+              <p><strong>→</strong> Rigueur, lisibilité, structure.</p>
+            </div>
+          </div>
+    
+          <div class="details-container color-container">
+            <span class="experience-sub-title"
+              style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+              HUMAIN
+            </span>
+            <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+              Travailler en équipe
+            </h2>
+            <div class="project-description">
+              <p>
+                Sur Smart Bike à 4, j'ai compris que la communication fait ou défait un projet.
+                Se synchroniser, poser des questions, ne pas bloquer en silence — ça change tout.
+              </p>
+              <p><strong>→</strong> Écoute, partage, collaboration.</p>
+            </div>
+          </div>
+    
+          <div class="details-container color-container">
+            <span class="experience-sub-title"
+              style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+              CURIOSITÉ
+            </span>
+            <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+              Ne jamais arrêter d'apprendre
+            </h2>
+            <div class="project-description">
+              <p>
+                L'IA, les nouveaux frameworks, les outils qui émergent — rester curieuse et faire
+                de la veille régulièrement, c'est ce qui permet de pas se retrouver larguée dans 2 ans.
+              </p>
+              <p><strong>→</strong> Veille active, adaptation, évolution.</p>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <!-- COMPÉTENCES CONSOLIDÉES -->
+      <p class="section__text__p1" style="margin-top: 4rem;">Mes acquis</p>
+      <h2 class="title gradient-text"
+        style="font-size: 2rem; margin-bottom: 2rem;">Compétences Consolidées</h2>
+    
+      <div class="about-containers" style="max-width: 900px; margin: 0 auto;">
+    
+        <div class="details-container color-container">
+          <img src="code-branch-solid-full.svg" alt="Hard Skills" class="icon" />
+          <h3>Hard Skills</h3>
+          <div class="project-description">
+            <p>Python · PHP · JavaScript · SQL</p>
+            <p>HTML/CSS · Symfony · MySQL · MongoDB</p>
+            <p>GitHub · Linux</p>
+          </div>
+        </div>
+    
+        <div class="details-container color-container">
+          <img src="diagram-project-solid-full.svg" alt="Soft Skills" class="icon" />
+          <h3>Soft Skills</h3>
+          <div class="project-description">
+            <p>Travail en équipe</p>
+            <p>Autonomie & organisation</p>
+            <p>Veille technologique</p>
+            <p>Adaptabilité</p>
+          </div>
+        </div>
+    
+      </div>
+    
+      <!-- MOMENTS CLÉS -->
+      <p class="section__text__p1" style="margin-top: 4rem;">Mon parcours en bref</p>
+      <h2 class="title gradient-text"
+        style="font-size: 2rem; margin-bottom: 2rem;">Moments Clés</h2>
+    
+      <div class="experience-details-container">
+        <div class="about-containers">
+    
+          <div class="details-container color-container">
+            <span class="experience-sub-title"
+              style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+              2025 – CETTE ANNÉE
+            </span>
+            <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+              BTS SIO sans avoir fait la 1ère année
+            </h2>
+            <div class="project-description">
+              <p>
+                Cette année j'ai intégré directement la 2ème année de BTS SIO SLAM, sans avoir fait
+                la 1ère. Mes amis avaient une année entière d'avance sur moi ça m'a mis la pression
+                mais surtout ça m'a donné envie de me battre pour être à leur niveau. Et j'y suis arrivée.
+              </p>
+            </div>
+          </div>
+    
+          <div class="details-container color-container">
+            <span class="experience-sub-title"
+              style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+              DÉC. 2025 – FÉV. 2026
+            </span>
+            <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+              Stage Caplogy
+            </h2>
+            <div class="project-description">
+              <p>
+                Stage en France, dans un environnement plus exigeant et plus structuré.
+                Montée en compétences rapide, gestion de projets concrets en équipe.
+              </p>
+            </div>
+          </div>
+    
+          <div class="details-container color-container">
+            <span class="experience-sub-title"
+              style="font-size: 0.75rem; letter-spacing: 1px; text-transform: uppercase;">
+              1ÈRE ANNÉE – 2025
+            </span>
+            <h2 class="experience-sub-title project-title gradient-text" style="margin-top: 1rem;">
+              Mon premier vrai site : Smart Bike
+            </h2>
+            <div class="project-description">
+              <p>
+                Mon tout premier projet web en équipe. On a créé un site e-commerce de A à Z avec
+                une base de données fonctionnelle — et honnêtement, j'étais trop fière de moi.
+                C'est là que j'ai vraiment eu le déclic pour le développement.
+              </p>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <!-- PROCHAINES ÉTAPES -->
+      <div class="details-container"
+        style="max-width: 800px; margin: 4rem auto 2rem auto; text-align: center; padding: 2.5rem;">
+        <p class="section__text__p1">La suite</p>
+        <h2 class="title gradient-text" style="font-size: 2rem; margin-bottom: 1.5rem;">Prochaines Étapes</h2>
+        <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1.5rem;">
+          Valider mon BTS, puis mon Bachelor spécialisé en intelligence artificielle, 
+          acquérir de l’expérience pratique via <strong>un stage ou une alternance en IA/développement</strong> 
+          et ensuite intégrer <strong>un cycle d’ingénieur</strong>  pour aller encore plus loin dans ce domaine !
+        </p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="location.href='#contact'">Me contacter</button>
+          <button class="btn btn-color-2" onclick="location.href='#projects'">Voir mes projets</button>
+        </div>
+      </div>
+    
+      
+    </section>
+
+    <section id="contact">
+    <p class="section__text__p1">Mes infos</p>
+    <h1 class="title gradient-text">Contactez-moi</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img
+          src="envelope-solid-full.svg"
+          alt="Email"
+          class="icon contact-icon email-icon"
+        />
+        <p><a href="mailto:molkabelakhdar@gmail.com">molkabelakhdar@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="linkedin-brands-solid-full.svg"
+          alt="LinkedIn"
+          class="icon contact-icon"
+        />
+        <p><a href="https://www.linkedin.com/in/molka-belakhdar" target="_blank">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img
+          src="github-brands-solid-full.svg"
+          alt="GitHub"
+          class="icon contact-icon"
+        />
+        <p><a href="https://github.com/Molka-Belakhdar" target="_blank">GitHub</a></p>
+      </div>
+    </div>
+</section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Accueil</a></li>
+            <li><a href="#experience">Expériences</a></li>
+            <li><a href="#projects">Réalisations</a></li>
+            <li><a href="#veille">Veille</a></li>
+            <li><a href="#bilan">Bilan</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright © 2025 Molka Belakhdar. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
